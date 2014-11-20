@@ -1,0 +1,54 @@
+/* Imports */
+/*--  Reset CSS Import to stop default browser styles to be applied  --*/
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
+    /*--  Google Font import for font styling  --*/
+@import url(http://fonts.googleapis.com/css?family=Syncopate:400,700|Open+Sans:400,300,600,700);
+
+
+/* Global */
+body{
+    background: #d7d7d5 url('../img/gray_noise.png') repeat;
+    /* Use noisetexturegenerator.com to generate a texture based on the color */
+    font: 300 100% Open Sans;
+}
+h1 {
+    font-family: Syncopate;
+    font-size: 1.5em;
+    margin: 0.25em;
+    padding: 0.25em 0.25em 0.25em 0;
+    color: #555;
+    text-shadow: 1px 1px 1px #e8e2dd;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+div.container{
+    padding: 3em;
+}
+
+div.leftpad {
+    padding: 2em;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid gray;
+    font: 700 0.85em 'Open Sans';
+    padding: 0.3em 0.5em;
+    color: #6b6b6b;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    background-color: rgba(132, 129, 131, 0.20);
+    cursor: pointer;
+    color: #787878;
+    text-shadow: 1px 1px 1px #eeeeee;
+    font: 600 0.85em 'Open Sans';
+}
